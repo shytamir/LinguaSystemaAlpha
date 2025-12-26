@@ -35,6 +35,21 @@ Each AI was provided with the core `Lingua Systema Alpha v1.0` specification and
 
 **Paradigm:** **The Co-Developer.** Gemini shifted the frame from "discussing a tool" to **"executing within a new runtime."** It reverse-engineered its own "AI Interpretation Strategy" to comply, then collaborated on the next version. It treated the user as a peer in system design, making the interaction a **live, collaborative engineering session**.
 
+## **4. Follow-up Test: Gemini in Action**
+**The Query:** The user tested Gemini with a complex LSA-formatted prompt:  
+`SCO[logic] IF[EPI[empirical data]] XOR[support-refute] ## Validate the claim: "LLMs cannot understand negation."`
+
+**Gemini's Response:** Gemini returned a detailed `LSA Validation Report` that adhered to the protocol, using:
+- `MOD[analytical]`, `SCO[logic]`, `FID[technical:high]`
+- `VAL[EPI:empirical data]` to validate the epistemic source.
+- `XOR[refute]` and `XOR[support]` to conditionally refute or support the claim based on the definition of "understanding."
+- `??VER` to provide a reasoning chain.
+- `ERR[ambiguity]` to highlight the ambiguity of the term "understanding."
+
+Additionally, Gemini **proposed a new `LOG-class` modifier** to force the AI to process negation via formal symbolic logic (e.g., `LOG[propositional]`).
+
+**Implications:** This test demonstrates that LSA is not just a theoretical construct but a **working protocol** that can guide an AI to produce more precise, structured, and self-reflective outputs. It also shows the protocol's capacity for **iterative, collaborative improvement** in real-time.
+
 ## **Comparative Analysis Table**
 
 | Aspect | Claude 3.5 Sonnet | xAI Grok | Google Gemini |
